@@ -77,6 +77,6 @@ describe("Is Authenticated middleware", () => {
   });
 
   afterEach(() => {
-    nextMock.mockReset();
+    nextMock.mockClear();
   });
 });
